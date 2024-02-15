@@ -2,7 +2,7 @@
     <layout-blank>
         <section 
         class="bg-local bg-center h-full w-full bg-cover" 
-        :style="{ backgroundImage: `url(${drawBridge})` }">
+        :style="{ backgroundImage: `url(${mainBg})` }">
             <div class="backdrop-blur bg-black bg-opacity-75 h-full">
                 <div class="h-full flex flex-wrap items-center justify-center">
                     <div class="flex flex-col items-center text-white text-center space-y-1">
@@ -19,13 +19,13 @@
 </template>
   
 <script>
-import drawBridge from '@/assets/img/terengganu-drawbridge.jpg';
+import mainBg from '@/assets/img/main-background.png';
 
 export default {
     name: 'PageNotFound',
     data() {
         return {
-        drawBridge
+        mainBg
         }
     },
 }

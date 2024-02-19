@@ -15,19 +15,6 @@
                         <a href="https://briefcase-pwa.hokkita.com" target="_blank">
                             <div class="px-2 py-0.5 bg-primary-blue hover:bg-bluetint-900 rounded-lg">Live Demo</div>
                         </a>
-                        <!-- <div class="flex flex-col items-center justify-center gap-0.5">
-                            <div class="text-2xl font-bold">
-                                Follow our social media:
-                            </div>
-                            <div class="flex items-center justify-center gap-4">
-                                <a href="https://www.facebook.com/smallempiresb" target="_blank" rel="noopener noreferrer">
-                                    <img class="max-w-[6rem]" src="@/assets/img/3d-icon/facebook.png" alt="Facebook">
-                                </a>
-                                <a href="https://www.tiktok.com/@smallempiresb" target="_blank" rel="noopener noreferrer">
-                                    <img class="max-w-[6rem]" src="@/assets/img/3d-icon/tiktok.png" alt="Tik Tok">
-                                </a>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>

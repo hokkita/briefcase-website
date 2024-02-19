@@ -16,26 +16,10 @@ module.exports = {
         silver: "#A7A9AC", //S400
         white: colors.white,
         black: colors.black,
-        // old color, to be removed
-        darkest: "#041116",
-        darker: "#10445A",
-        dark: "#1B779E",
-        DEFAULT: "#27AAE1",
-        light: "#68C4EA",
-        lighter: "#A9DDF3",
-        lightest: "#E9F7FC",
       },
       secondary: {
         eden: "#245A52",
         sandwisp: "#EEE8A9",
-        // old color, to be removed
-        darkest: "#111111",
-        darker: "#434445",
-        dark: "#757678",
-        DEFAULT: "#A7A9AC",
-        light: "#C1C3C5",
-        lighter: "#DCDDDE",
-        lightest: "#F6F6F7",
       },
       tertiary: {
         jellybean: "#0086A9",
@@ -91,6 +75,19 @@ module.exports = {
         100 : "#ECECED",
         50 : "#F7F7F7",
       },
+      zinc: {
+        950 : "#09090B",
+        900 : "#18181B",
+        800 : "#27272A",
+        700 : "#3F3F46",
+        600 : "#52525B",
+        500 : "#71717A",
+        400 : "#A1A1AA",
+        300 : "#D4D4D8",
+        200 : "#E4E4E7",
+        100 : "#F4F4F5",
+        50 : "#FAFAFA",
+      },
       // below this is all old color, to be removed
       black: colors.black,
       white: colors.white,
@@ -100,6 +97,7 @@ module.exports = {
       danger: "#FF341C",
     },
     fontSize: {
+      displayxl: ["3.5rem", "3.75rem"], //56px
       displaylarge: ["2.625rem", "2.875rem"], //42px
       "h1": ["2rem", "2.25rem"], //32px
       "h2": ["1.75rem", "2rem"], //28px
@@ -123,6 +121,7 @@ module.exports = {
       2: "2rem",
       2.5: "2.5rem",
       3.5: "3.5rem",
+      4: "4rem",
       "thumbnail": "80px",
       "container": "400px",
       auto: "auto",
@@ -138,6 +137,7 @@ module.exports = {
       2: "2rem",
       2.5: "2.5rem",
       3.5: "3.5rem",
+      4: "4rem",
       "photo": "10rem",
       auto: "auto",
       full: "100%",
@@ -154,6 +154,7 @@ module.exports = {
       2: "2rem",
       3: "3rem",
       4: "4rem",
+      8: "8rem",
     },
     extend: {},
   },

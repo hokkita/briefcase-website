@@ -1,6 +1,6 @@
 import { createWebHistory, createRouter } from 'vue-router';
 
-import ComingSoon from '@/pages/ComingSoon.vue';
+import Landing from '@/pages/Landing.vue';
 import PageNotFound from '@/pages/PageNotFound.vue';
 
 // import LamanUtama from '@/pages/LamanUtama.vue';
@@ -13,7 +13,7 @@ const router = createRouter({
     routes : [
         {
             path: '/',
-            component: ComingSoon,
+            component: Landing,
         },
         { 
             path: '/:pathMatch(.*)*', 

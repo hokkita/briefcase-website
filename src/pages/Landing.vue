@@ -93,6 +93,24 @@
             </div>
         </section>
 
+<section class="w-full bg-zinc-900 text-white">
+    <div class="w-full max-w-6xl mx-auto flex flex-col items-center py-4 md:py-8 px-1 space-y-2">
+        <div class="text-h1 md:text-displaylarge text-bluetint-200 text-center">
+            Try out our live demo now!
+        </div>
+        <div class="text-center text-base md:text-lg">
+            Be a step ahead of your family and friends. Try out our live demo to get better insights of <briefcase-text /> before our official launch soon!
+        </div>
+        <div class="flex">
+            <a href="https://briefcase-pwa.hokkita.com" target="_blank">
+                <div class="px-2 py-0.5 bg-gradient-to-br rounded-lg
+                from-bluetint-300 to-bluetint-500 text-bluetint-950 
+                hover:from-bluetint-200 hover:to-bluetint-400">Open Live Demo</div>
+            </a>
+        </div>
+    </div>
+</section>
+
     </layout-default>
 </template>
 
